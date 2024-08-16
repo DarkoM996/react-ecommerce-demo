@@ -7,3 +7,11 @@ body,
 :root {
   height: 100%;
 }
+
+@layer base {
+  body {
+    @apply font-opensans;
+    /* Will change this.. this will be working version for now I guess */
+    @apply bg-gray-50;
+  }
+}
