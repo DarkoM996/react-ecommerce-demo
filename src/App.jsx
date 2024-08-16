@@ -1,13 +1,11 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <p>Some text for starting</p>
-    </>
+    <div className="bg-stone-300">
+      <h2 className="text-6xl">Some text for starting</h2>
+    </div>
   );
 }
 
