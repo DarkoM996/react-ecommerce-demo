@@ -1,7 +1,11 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div className="text-4xl font-opensans">Navbar</div>;
+  return (
+    <div className="max-w-screen-3xl mx-auto w-full h-full text-4xl font-opensans border-b border-neutral-300">
+      Navbar
+    </div>
+  );
 };
 
 export default Navbar;
