@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         opensans: ["Open Sans", "sans"],
       },
+      screens: {
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],
