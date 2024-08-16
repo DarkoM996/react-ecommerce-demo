@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "sans"],
+        opensans: ["Open Sans", "sans"],
       },
     },
   },
