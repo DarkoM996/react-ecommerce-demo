@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="bg-stone-300">
-      <h2 className="text-6xl font-opensans">Some text for starting</h2>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
